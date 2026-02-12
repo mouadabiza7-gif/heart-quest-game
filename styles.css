@@ -1,0 +1,58 @@
+.heart {
+    color: #FF69B4; /* Hot pink for heart text */
+    font-size: 2em;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e8b, #ffbb91); /* Gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.button {
+    background: #FF69B4; /* Button background color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background: #ffbb91; /* Hover effect for button */
+    color: #FF69B4;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #FF69B4;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
